@@ -1,4 +1,5 @@
-/* Grove - Dust Sensor Demo v1.0
+/* 
+ Grove - Dust Sensor Demo v1.0
  Interface to Shinyei Model PPD42NS Particle Sensor
  Program by Christopher Nafis 
  Written April 2012
@@ -9,7 +10,7 @@
  JST Pin 1 (Black Wire)  => Arduino GND
  JST Pin 3 (Red wire)    => Arduino 5VDC
  JST Pin 4 (Yellow wire) => Arduino Digital Pin 8
- */
+*/
 
 int pin = 8;
 unsigned long duration;
