@@ -23,7 +23,7 @@ float concentration = 0;
 void setup() 
 {
     Serial.begin(9600);
-    pinMode(8,INPUT);
+    pinMode(pin,INPUT);
     starttime = millis();//get the current time;
 }
 
