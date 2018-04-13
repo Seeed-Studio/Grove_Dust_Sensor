@@ -1,6 +1,8 @@
 Grove - Dust Sensor
 ---------------------------------------------------------
-[![Grove - Dust Sensor](http://www.seeedstudio.com/depot/images/product/Dustsensor.jpg)](http://www.seeedstudio.com/depot/grove-dust-sensor-p-1050.html?cPath=25_27)
+![](https://statics3.seeedstudio.com/seeed/img/2016-11/1zRTtnO24twjUFuc0bKxXO1h.jpg)
+
+[Grove - Dust Sensor（PPD42NS)](https://www.seeedstudio.com/Grove-Dust-Sensor%EF%BC%88PPD42NS%EF%BC%89-p-1050.html)
 
 Sensor is to create Digital (Lo Pulse) output to Particulate Matters (PM). Lo Pulse Occupancy time (LPO time) is in proportion to PM concentration. The output is for PM whose size is around 1 micro meter or larger. We can use the sensor to detect the dust in clean room. 
  
