@@ -4,8 +4,8 @@
  Program by Christopher Nafis 
  Written April 2012
  
- http://www.seeedstudio.com/depot/grove-dust-sensor-p-1050.html
- http://www.sca-shinyei.com/pdf/PPD42NS.pdf
+ https://www.seeedstudio.com/Grove-Dust-Sensor-PPD42N-p-1050.html
+  https://www.shinyei.co.jp/stc/eng/optical/main_ppd42.html
  
  JST Pin 1 (Black Wire)  => Arduino GND
  JST Pin 3 (Red wire)    => Arduino 5VDC
@@ -15,7 +15,7 @@
 int pin = 8;
 unsigned long duration;
 unsigned long starttime;
-unsigned long sampletime_ms = 30000;//sampe 30s ;
+unsigned long sampletime_ms = 30000;//sample 30s ;
 unsigned long lowpulseoccupancy = 0;
 float ratio = 0;
 float concentration = 0;
@@ -32,7 +32,7 @@ void loop()
     duration = pulseIn(pin, LOW);
     lowpulseoccupancy = lowpulseoccupancy+duration;
 
-    if ((millis()-starttime) > sampletime_ms)//if the sampel time == 30s
+    if ((millis()-starttime) > sampletime_ms)//if the sample time == 30s
     {
         ratio = lowpulseoccupancy/(sampletime_ms*10.0);  // Integer percentage 0=>100
         concentration = 1.1*pow(ratio,3)-3.8*pow(ratio,2)+520*ratio+0.62; // using spec sheet curve
